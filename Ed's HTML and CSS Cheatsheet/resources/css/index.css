@@ -1,0 +1,108 @@
+* {
+    font-family: 'ShareTech', Helvetica;
+    
+}
+
+@font-face { font-family: 'ShareTech';
+    src: url("ShareTechMono-Regular.ttf");
+}
+
+h1 {
+    font-family: Sharetech, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(151, 115, 236);
+    text-shadow: 1px 1px 3px hotpink;
+    text-align: center;
+}
+
+.animate {text-transform: uppercase;
+    text-align: center;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-clip: border-box;
+    background-size: 200%;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1s linear infinite;
+    font-size: 70px;}
+
+@keyframes textclip {
+            to {background-position: 200% center;}
+          }
+
+body {
+    background-image: url("./images/background.jpg");
+    background-size: contain;
+}
+
+span {
+    background-color: black;
+    color: rgb(243, 75, 159);
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 2px solid rgb(99, 99, 250);
+    color: white;
+    letter-spacing: 0.0em;
+    box-shadow: 1px 1px 1px blue, 2px 2px 1px blue;
+  }
+  
+  thead th:nth-child(1) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 40%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 40%;
+  }
+  
+  th, td {
+    padding: 3px;
+  }
+
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+  }
+  
+thead th, tfoot th, tfoot td {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 251, 251, 0.205),
+    rgba(0, 0, 0, 0.5)
+  );
+  border: 3px solid rgb(99, 99, 250);
+    text-shadow: 1px 1px 1px blue, 2px 2px 1px blue;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #0707070a;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #ffffff15;
+  }
+  
+  tbody tr {
+    background-color: rgba(0, 255, 255, 0.062);
+  }
+  
+  table {
+    background-color: #5233ff23;
+  }
+   
